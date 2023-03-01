@@ -38,7 +38,6 @@ RegisterNetEvent("qb-submarine:server:setInformationRobbed", function(robId)
 end)
 
 Citizen.CreateThread(function()
-    
   while true do
     Citizen.Wait(60000 * Settings.Values.Interval)
     if not Loaded then
@@ -62,7 +61,7 @@ RegisterNetEvent('qb-submarine:server:giveReward', function(reward, quantity, cu
   end
 end)
 
-RegisterNetEvent('qb-submarine:server:removeLockpick', function()
+RegisterNetEvent('qb-submarine:server:removeLockpick', function(customSrc)
   local src = customSrc == nil and source or customSrc
   local Player = Framework.Functions.GetPlayer(src)
   if Player then

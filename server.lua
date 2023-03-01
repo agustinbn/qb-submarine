@@ -1,9 +1,7 @@
 Framework = exports[Settings.Core]:GetCoreObject()
 
 local Loaded = false
-local TakenTools = {}
-local LootedBoxes = {}
-local RobbedInformation = {}
+local TakenTools, LootedBoxes, RobbedInformation = {}, {}, {}
 
 RegisterNetEvent("qb-submarine:server:takeTools", function()
   local src = source

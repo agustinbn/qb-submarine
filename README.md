@@ -22,7 +22,8 @@
 
 Only for **$5,99**.
 
-**Tebex:** https://agustinbns-shop.tebex.io/package/5529841 25
-**Preview:** https://www.youtube.com/watch?v=OdOyLl07UVk 90
+**Tebex:** https://agustinbns-shop.tebex.io/package/5529841
+
+**Preview:** https://www.youtube.com/watch?v=OdOyLl07UVk
 
 **Unencrypted version:** https://agustinbns-shop.tebex.io/package/5529842
